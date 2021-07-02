@@ -46,6 +46,8 @@ const listData = (data) => {
         <li id=${element.id}>
             <span class='bold'>name:</span> ${element.name}
             <span class='bold'>email:</span> ${element.email}
+            <span class='bold'>age:</span> ${element.age}
+            <span class='bold'>isActive:</span> ${element.isActive}
         </li>
         `;
     })
